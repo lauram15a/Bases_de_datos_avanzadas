@@ -1,0 +1,4 @@
+ej 2 --> 0000000100000010000000A1
+	C:\Program Files\PostgreSQL\12\data\pg_wal
+
+ej 3 --> 1116

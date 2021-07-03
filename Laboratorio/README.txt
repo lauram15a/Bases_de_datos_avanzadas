@@ -1,0 +1,1 @@
+Prácticas de BASES DE DATOS AVANZADAS realizadas con ISABEL BLANCO MARTÍNEZ

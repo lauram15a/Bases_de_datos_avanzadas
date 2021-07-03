@@ -1,0 +1,19 @@
+-- BACKUP
+
+C:\Program Files\PostgreSQL\12\bin>pg_basebackup -h localhost -p 5432 -U postgres -R -D "D:\laura\Documents\UNIVERSIDAD\3CARRERA\2o cuatri\BDA\PEL4\Mis BackUps"
+
+
+(Program Files --> PostgreSQL --> 12 --> bin (pg_basebackup -h localhost -p 5432 -U postgres -R -D "D:\laura\Documents\UNIVERSIDAD\3CARRERA\2o cuatri\BDA\PEL4\Mis BackUps"))
+
+--reiniciar postgresql
+
+cd C:\Program Files\PostgreSQL\12\bin
+pg_ctl restart  -D "C:\Program Files\PostgreSQL\12\data"
+
+--iniciar 
+
+C:\Program Files\PostgreSQL\12\bin>pg_ctl start -D "C:\Program Files\PostgreSQL\12\data"
+
+--juja
+
+pg_basebackup -D "C:/Program Files/PostgreSQL/12/data" -P -R -U postgres -h “192.168.1.93” ( la ip privada del maestro)
